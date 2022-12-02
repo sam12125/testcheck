@@ -1,38 +1,136 @@
-.App {
-  text-align: center;
+.grid{
+  display: grid;
+  grid-template-columns: repeat(4 , 1fr);
+  column-gap: 10px;
+  padding: 120px;
+  margin-top: -110px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.department{
+background-color: rgb(212,59,106);
+color: white;
+font-weight: bold;
+white-space: nowrap;
+padding: 2px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.font{
+  font-weight: bold;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.contact{
+  font-weight: bold;
+  margin-top: -8px;
+}
+
+hr{
+  width: 85%;
+  color:rgb(165,174,183);
+  height:1px;
+  background-color: rgb(165,174,183);
+}
+
+.input{
+  width: 20%;
+  height: 28px;
+  border-style: none;
+  border-radius: 20px;
+}
+
+.button{
+  background-color: rgb(212,59,106);
+  color:white;
+  margin-bottom: 40px;
+  border-style: none;
+  height: 28px;
+  border-radius: 20px;
+}
+
+
+.side-p{
+  color:rgb(165,174,183);
+  margin-top: -8px;
+}
+
+.name{
+  margin-top: 0;
+}
+
+.special{
+  font-weight: bold;
+  margin-top: -10px;
+}
+
+.image2{
+  width: 100%;
+  height: 600px;
+  display: grid;
+}
+
+.main2{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-around;
+  background-color: rgb(244,249,252);
+}
+
+.side-div{
+  display: flex;
+  gap:40px;
+  width:40%;
+  margin-top: 50px;
+}
+
+.doctors{
+  text-align: center;
+  color:rgb(52,76,114);
+  margin-top: 40px;
+}
+
+.role{
+  color:rgb(165,174,183);
+  margin-top: -18px;
+}
+
+.min-nav{
+  display: flex;
+  gap: 10px;
+  font-weight: bold;
+}
+
+.loreum{
+text-align: center;
+margin: auto;
+margin-top: -16px;
+width: 60%;
+margin-bottom: 40px;
+color:rgb(165,174,183);
+}
+
+.image{
+  display:flex;
+  justify-content:space-around;
+  padding:6px;
+}
+.navbar{
+  background-color: rgb(52,76,114);
+  display: flex;
+  justify-content: space-around;
+  height: 40px;
+}
+
+.logo{
+  width: 175px;
+  margin-top: 8px;
+}
+
+.support{
   color: white;
+   font-size: 12px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main{
+  text-align: center;
+  padding:70px;
+  background-color: rgb(52,76,114);
+  color:white
 }
